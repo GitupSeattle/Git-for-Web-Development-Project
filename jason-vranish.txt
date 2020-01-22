@@ -1,0 +1,108 @@
+https://codepen.io/SeattlePen/pen/WNbaZyo
+1. What is Semantic HTML? 
+   	Meaningful content to make websites easier to read and search
+2. What is HTML used for? 
+	Making Web pages look good.
+3. What is an attribute and where do we put it? 
+	Provide additional information to HTML elements. Put in the start tag.
+4. What is the h1 tag used for? How many times should I use it on a page?
+	h1 is for Header1, typically it is only used once.
+5. Name two tags that have required attributes
+	<a href>, <img src>
+6. What do we put in the head of our HTML document? 
+	Meta data, <title>, <style>, <meta>, <link>, <script>, and <base>.
+7. What is an id? 
+	something to specify a unique id for an html element
+8. What elements can I add an id to? 
+	Unique Elements
+9. How many times can I use the same id on a page? 
+	Once
+10. What is a class? 
+	An attribute used to define equal styles for elements with the same name.
+11. What elements can I add a class to? 
+	Multiple elements with the same name
+12. How many times can I use the same class on a page? 
+	Unlimited
+13. How do I get my link to open in a new tab?
+	Add target="_blank"
+14. What is the alt attribute used for? 
+	Specifies an alternative text to be used, if an image cannot be displayed.
+15. How do I reference an id?
+	#
+16. What is the difference between a section and a div
+	Section is grouped content, div does not convey meaning.
+17. What is CSS used for? 
+	To make HTML pages look good.
+18. How to we select an element? Example - every h2 on the page
+	h2 {
+		}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	ID is weighted more on the  CSS selectors if there are multiple classes with the same 	name you would use class, if there is one unique element that you know you want to 	code and not change things later you could use ID.
+
+20. How do we select classes in CSS?
+	.classname{
+			}
+21. How do we select a p element with a single class of “human””?
+	.human p{
+			}
+22. What is a parent child selector? When would this be useful? 
+	An element of an element selector. This is useful when there are multiple child 	elements in a parent and you want to do it all at once.
+23. How do you select all links within a div with the class of sidebar?
+	.sidebar a {
+			}
+24. What is a pseudo selector?
+	 A keyword added to a selector that specifies a special state of the selected element		(s).
+25. What do we use the change the spacing between lines?
+	line-height:
+26. What do we use to change the spacing between letters?
+	letter-spacing:
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: capitalize; lowercase; uppercase;
+28. How do I add a 1px border around my div that is dotted and black?
+	border: 1px solid black;
+29. How do I select everything on the page? 
+	*{
+		}
+30. How do I write a comment in CSS?
+	/* COMMENT HERE */
+31. How do I find out what file I am in, when I am using the command line? 	
+	git status
+32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	git rm filename, because it just dissappears and cannot be recovered AND will not ask 		are you sure you want to do this?
+34. Why should I use version control? 
+	because it makes it easy  to handle everything from small to large scale projects
+35. How often should I commit to github?
+	whenever a change is made
+36. What is the command we would use to push our repo up to github? 
+	git push origin -u firstname-lastname
+37. Walk me through Lambda's git flow. 
+	Choose the assignment from git
+	Fork it
+	verify you didnt mess up 
+	Click Clone
+	Find the folder you want the project to go to
+	open up gitbash
+	Clone it
+	type dir or ls to make sure you are in the right place
+	branch it
+	Make sure you are in the right place again
+	changes stuff and save changes
+	add
+	commit
+	push
+	go back to github to make sure you didnt mess up
+	add TL as colab
+	compare and pull
+	make sure are in the dropdown menu, not lambda school.
+	create the pull DO NOT MERGE
+	
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
