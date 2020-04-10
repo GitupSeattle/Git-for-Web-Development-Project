@@ -1,4 +1,4 @@
-https://codepen.io/SeattlePen/pen/WNbaZyo
+https://codepen.io/SeattlePen/pen/PoPoXPV
 1. What is Semantic HTML? 
    	Meaningful content to make websites easier to read and search
 2. What is HTML used for? 
